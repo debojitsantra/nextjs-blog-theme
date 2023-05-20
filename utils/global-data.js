@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Where Tradition Meets Innovation!';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : '2023 © Urban Rahsoi';
+    : "2023 © Urban Rahsoi";
 
   return {
     name,
