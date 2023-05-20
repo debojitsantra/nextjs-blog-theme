@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Urban Rahsoi';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : ' A Modern Indian Food Blog';
+    : 'A Modern Indian Food Blog';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : "2023 © Urban Rahsoi";
